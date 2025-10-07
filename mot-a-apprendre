@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulaire : À la Maison en Arabe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Vocabulaire : À la Maison (فِي الْبَيْتِ)</h1>
+        <nav>
+            <a href="index.html">Accueil</a> | 
+            <a href="jours.html">Jours</a> | 
+            <a href="chiffres.html">Chiffres</a> | 
+            <a href="quizz_maison.html">Quizz Maison</a> 
+        </nav>
+    </header>
+
+    <div class="contenu-page">
+        <h2>Les objets et pièces de la maison :</h2>
+
+        <div class="mot-a-apprendre">
+            <p class="arabe-gras">بَيْتٌ</p>
+            <p class="traduction">Maison / Foyer</p>
+            <img src="images/maison.jpg" alt="Illustration d'une maison">
+            <button class="bouton-audio" onclick="document.getElementById('audio_maison').play()">
+                🔊 Écouter
+            </button>
+            <audio id="audio_maison" src="audio/maison.mp3"></audio>
+        </div>
+
+        <div class="mot-a-apprendre">
+            <p class="arabe-gras">بَابٌ</p>
+            <p class="traduction">Porte</p>
+            <img src="images/porte.jpg" alt="Illustration d'une porte">
+            <button class="bouton-audio" onclick="document.getElementById('audio_porte').play()">
+                🔊 Écouter
+            </button>
+            <audio id="audio_porte" src="audio/porte.mp3"></audio>
+        </div>
+        
+        <div class="mot-a-apprendre">
+            <p class="arabe-gras">غُرْفَةٌ</p>
+            <p class="traduction">Chambre / Pièce</p>
+            <img src="images/chambre.jpg" alt="Illustration d'une chambre">
+            <button class="bouton-audio" onclick="document.getElementById('audio_chambre').play()">
+                🔊 Écouter
+            </button>
+            <audio id="audio_chambre" src="audio/chambre.mp3"></audio>
+        </div>
+
+        <div class="mot-a-apprendre">
+            <p class="arabe-gras">مَطْبَخٌ</p>
+            <p class="traduction">Cuisine</p>
+            <img src="images/cuisine.jpg" alt="Illustration d'une cuisine">
+            <button class="bouton-audio" onclick="document.getElementById('audio_cuisine').play()">
+                🔊 Écouter
+            </button>
+            <audio id="audio_cuisine" src="audio/cuisine.mp3"></audio>
+        </div>
+        
+        <div class="mot-a-apprendre">
+            <p class="arabe-gras">حَمَّامٌ</p>
+            <p class="traduction">Salle de bain / Toilettes</p>
+            <img src="images/salledebain.jpg" alt="Illustration d'une salle de bain">
+            <button class="bouton-audio" onclick="document.getElementById('audio_salledebain').play()">
+                🔊 Écouter
+            </button>
+            <audio id="audio_salledebain" src="audio/salledebain.mp3"></audio>
+        </div>
+
+        <p style="margin-top: 30px;">Continuez à ajouter du vocabulaire pour étoffer votre page !</p>
+        <a href="quizz_maison.html" class="bouton-audio" style="font-size: 1.5em; padding: 15px 30px;">Passer le Quizz "À la Maison"</a>
+        
+    </div>
+
+</body>
+</html>
